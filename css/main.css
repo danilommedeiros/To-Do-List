@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?office");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.list{
+    background-color: #000000c2;
+    height: 300px;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.input-add{
+    background-color: rgba(0, 0, 0, 0.563);
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    box-shadow: white 0px 0px 40px;
+    transition: 500ms;
+    outline: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.input-add:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 40px;
+}
+
+.btn-add {
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    padding: 0px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.618);
+    border: 0px;
+    border-radius: 15%;  
+    transition: 330ms;  
+
+
+}
+
+.btn-add:hover {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+   box-shadow: 0 0 10px 0 #f7f7f7 inset, 0 0 10px 4px #ffffff;
+   background-color: black;
+   
+   
+   
+}
+
