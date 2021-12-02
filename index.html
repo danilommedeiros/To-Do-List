@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/to-do-list.png" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css    "
-    />
 
-    <script src="js/app.js" defer></script>
-    <title>Lista de afazeres</title>
-  </head>
-  <body>
-    <div class="list">
-      <div class="content">
-        <input type="text" class="input-add" placeholder="Adicionar tarefa" />
-        <button type="submit" class="btn-add">
-          <i class="fa fa-plus"></i>
-        </button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/to-do-list.png" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet"
+    href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css    " />
+  <title>Lista de afazeres</title>
+</head>
+<body>
+  <div class="list">
+    <div class="content">
+   <input type="text" class="input-add" placeholder="Ex: Ir ao Supermercado fazer compras" />
+      <button type="submit"
+   class="btn-add" onclick=createItem()>
+        <i class="fa fa-plus"></i>
+      </button>
     </div>
-  
     <div class="tasks">
-    
-     
+      <ul class="task">
+         
+          
+         
+      </ul>
+    </div>
+
   </div>
-  </body>
+
+
+
+
+  </div>
+
+
+
+  <script src="js/app.js" defer></script>
+</body>
 </html>
