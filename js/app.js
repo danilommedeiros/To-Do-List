@@ -36,12 +36,21 @@ const createItem = () => {
     });
   }
 
-  var tasks = document.querySelectorAll(".task");
+  var tasks = document.querySelectorAll(".task li");
   for (var i = 0; i < tasks.length; i++) {
     tasks[i].addEventListener("click", function () {
       this.classList.toggle("completed");
     });
+
+    
+  
+
+ 
+ 
   }
+
+
+ 
   
 
 

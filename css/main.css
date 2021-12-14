@@ -90,7 +90,14 @@ ul {
   background-color: #000000c2;
   border-radius: 10px;
   transition: 500ms;
+  width: 400px;
 }
+@media (max-width: 992px) {
+  ul {
+    width: 340px;
+  }
+}
+
 ul:hover {
   transition: box-shadow 500ms ease-in-out, color 500ms ease-in-out;
   box-shadow: 0 0 10px 0 #f7f7f7 inset, 0 0 10px 4px #ffffff;
@@ -128,9 +135,11 @@ button:hover {
 }
 
 .delete{
-  z-index: 1;
+  margin-left: 5px;
+  
 }
 
 .completed{
   text-decoration: line-through;
+  color: #ffffff;
 }
